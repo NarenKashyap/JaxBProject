@@ -8,7 +8,8 @@ import org.joda.time.format.DateTimeFormatter;
 public class TestLembda {
 
 	public static void main(String[] args) {
-		System.out.println("Start Lembda Project 2222 3333");
+		System.out.println("Start Lembda Project 2222");
+		System.out.println("Start Lembda Project 3333");
 		
 		String date = "2017-04-28 10:04:32";
 		DateTimeZone timeZoneLondon = DateTimeZone.forID( "Europe/London" );
