@@ -9,6 +9,7 @@ public class TestLembda {
 
 	public static void main(String[] args) {
 		System.out.println("Start Lembda Project");
+		System.out.println("Hello my first GIT App");
 
 		String date = "2017-04-28 10:04:32";
 		DateTimeZone timeZoneLondon = DateTimeZone.forID("Europe/London");
