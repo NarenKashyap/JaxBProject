@@ -21,7 +21,7 @@ public class TestLembda {
 		
 		DateTime nowLondon = DateTime.now( timeZoneLondon );
 		DateTime nowGMT = nowLondon.withZone( timeZoneGMT );
-		DateTime nowUtc = nowLondon.withZone( DateTimeZone.UTC );
+		//DateTime nowUtc = nowLondon.withZone( DateTimeZone.UTC );
 		System.out.println(nowGMT);
 		System.out.println(nowLondon);
 		
