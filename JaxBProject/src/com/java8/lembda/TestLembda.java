@@ -25,7 +25,7 @@ public class TestLembda {
 		System.out.println(nowLondon);
 
 		if (dt1.isBefore(nowLondon.getMillis())) {
-			System.out.println("Equals");
+			System.out.println("Equals ");
 		} else {
 			System.out.println("Not Equal");
 		}
