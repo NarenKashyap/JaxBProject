@@ -29,6 +29,7 @@ public class TestLembda {
 		} else {
 			System.out.println("Not Equal");
 		}
-
+		
+		System.out.println("End Lembda Project");
 	}
 }
