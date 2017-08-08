@@ -2,7 +2,7 @@ package org.testlist;
 
 public class Address {
 	
-	private String name;
+	private String name;// set name
 	private String city;
 	public String getName() {
 		return name;
