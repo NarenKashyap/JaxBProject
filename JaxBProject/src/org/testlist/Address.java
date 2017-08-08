@@ -2,7 +2,7 @@ package org.testlist;
 
 public class Address {
 	// require to add an id
-	private String id; 
+	private String id; // gette/setter
 	private String name;// set name
 	private String city;//set city-- city is modified -- modified again due to country
 	private String country; // set country again
@@ -24,6 +24,12 @@ public class Address {
 	}
 	public void setCountry(String country) {
 		this.country = country;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	
