@@ -3,7 +3,7 @@ package org.testlist;
 public class Address {
 	// require to add an id
 	private String id; // gette/setter-- modified
-	private String name;// set name
+	private String name;// set name -- modified
 	private String city;//set city-- city is modified -- modified again due to country
 	private String country; // set country again
 	
