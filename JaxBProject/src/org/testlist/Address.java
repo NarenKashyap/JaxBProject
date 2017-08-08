@@ -4,6 +4,8 @@ public class Address {
 	
 	private String name;// set name
 	private String city;
+	private String country;
+	
 	public String getName() {
 		return name;
 	}
@@ -15,6 +17,12 @@ public class Address {
 	}
 	public void setCity(String city) {
 		this.city = city;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
 	}
 	
 	
